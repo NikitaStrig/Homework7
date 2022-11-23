@@ -22,20 +22,33 @@ public class Main {
         System.out.println("Задание 3");
 
 
-        System.out.println("Задание 4");
+        System.out.println("Задание 4/5/6");
        // int solaryA = 15_000;
         double totalA = 15000;
         double pr = 0.07;
         int iA = 0;
-        while (totalA < 12_000_000) {
+        while (iA < 108) {
             totalA = totalA * (1 + pr);
-           // totalA = totalA + solaryA;
             iA++;
             String formattedDouble = String.format("%.4f", totalA);
             if (iA % 6 == 0) {
                 System.out.println("Месяц " + iA + ", сумма накоплений равна " + formattedDouble);
             }
         }
+        System.out.println("Задача 7");
+        int reportingDay = 2;
+        for ( i = 1; i <= 31; i++){
+            if (reportingDay == 2 || reportingDay % i == 0){
+                System.out.println(reportingDay);
+                reportingDay = reportingDay + 7;
+            }
+
+
+
+        }
+
+
+
 
     }
 }
