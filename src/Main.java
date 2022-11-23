@@ -35,6 +35,18 @@ public class Main {
                 System.out.println("Месяц " + iA + ", сумма накоплений равна " + formattedDouble);
             }
         }
+        System.out.println("Задача 7");
+        int reportingDay = 2;
+        for ( i = 1; i <= 31; i++){
+            if (reportingDay == 2 || reportingDay % i == 0){
+                System.out.println(reportingDay);
+                reportingDay = reportingDay + 7;
+            }
+
+
+
+        }
+
 
 
 
