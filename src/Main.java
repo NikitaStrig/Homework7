@@ -46,6 +46,23 @@ public class Main {
 
 
         }
+        System.out.println("Задание 8");
+        int startYear = 1800;
+        int Year;
+        int endYear = 2100;
+        for (Year = 0; Year <= endYear; Year = Year + 79){
+            if (Year >= startYear && Year <= endYear){
+                System.out.println(Year);
+            }
+        }
+
+        System.out.println("Задание 9");
+        int numberToMultiply = 2;
+        int multiplicationResult = 0;
+        for (int m = 1; m <= 10; m++){
+            multiplicationResult = numberToMultiply * m;
+            System.out.println(numberToMultiply + " X " + m + " = " + multiplicationResult);
+        }
 
 
 
