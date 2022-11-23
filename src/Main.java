@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Задание 3");
 
 
-        System.out.println("Задание 4");
+        System.out.println("Задание 4/5/6");
        // int solaryA = 15_000;
         double totalA = 15000;
         double pr = 0.07;
