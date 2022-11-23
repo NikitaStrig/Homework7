@@ -27,15 +27,16 @@ public class Main {
         double totalA = 15000;
         double pr = 0.07;
         int iA = 0;
-        while (totalA < 12_000_000) {
+        while (iA < 108) {
             totalA = totalA * (1 + pr);
-           // totalA = totalA + solaryA;
             iA++;
             String formattedDouble = String.format("%.4f", totalA);
             if (iA % 6 == 0) {
                 System.out.println("Месяц " + iA + ", сумма накоплений равна " + formattedDouble);
             }
         }
+
+
 
     }
 }
