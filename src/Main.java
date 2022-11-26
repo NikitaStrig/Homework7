@@ -20,6 +20,14 @@ public class Main {
         for (b = 10; b >= 1; b--)
             System.out.print(b + " ");
         System.out.println("Задание 3");
+        int populattion = 12_000_000;
+        int dethBy1k = 8;
+        int bornBy1k = 17;
+        int incr = bornBy1k - dethBy1k;
+        for (int year = 1; year <= 10; year++) {
+            populattion += populattion * incr / 1000;
+            System.out.println("За " + year + " лет, население страны " + populattion + " человек");
+        }
 
 
         System.out.println("Задание 4/5/6");
