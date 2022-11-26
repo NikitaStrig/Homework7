@@ -44,10 +44,10 @@ public class Main {
             }
         }
         System.out.println("Задача 7");
-        int reportingDay = 2;
+        int reportingDay = 4;
         for ( i = 1; i <= 31; i++){
             if (reportingDay == 2 || reportingDay % i == 0){
-                System.out.println(reportingDay);
+                System.out.println("Сегодня пятница " + reportingDay + " число, нужно сделать отчет");
                 reportingDay = reportingDay + 7;
             }
 
